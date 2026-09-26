@@ -1,8 +1,7 @@
-Python 101 🐍
+#Python 101 
+(A self-guide for me and others who come across it)
 
-A self-guide for me and others who come across it.
-
-Data Types
+#Data Types
 
 Data types represent the different kinds of values that variables can store in Python.
 
@@ -19,15 +18,25 @@ print("Hello, World!")
 
 
 Useful parameters:
+print()
+print(*objects, sep=' ', end='\n', file=None, flush=False)
 
-print("Hello", "World", sep=" ", end="\n")
 
+Documentation definition:
 
-sep — separates multiple values. Default: " "
+Prints the values of objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments.
 
-end — specifies what is printed at the end. Default: "\n"
+Parameters:
 
-Check the official Python documentation for more details.
+objects — The values to be printed.
+
+sep — String inserted between values. Default: ' '.
+
+end — String appended after the last value. Default: '\n'.
+
+file — An object with a write(string) method. Default: sys.stdout.
+
+flush — Whether to forcibly flush the stream. Default: False.
 
 int()
 
