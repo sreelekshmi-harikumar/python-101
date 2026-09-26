@@ -29,3 +29,37 @@ if x!=y :
 else:
     print("x is equal to y")
 
+def main():
+    num = int(input("Enter a number:"))
+    if is_even(num):
+        print("It is an even number")
+    else:
+        print("It is an odd number")
+
+# bool - can be True or False
+def is_even(num):
+    if num %2 == 0 :
+        return True
+    else:
+        return False
+
+main()
+
+#Pythonic language
+#return True if num % 2 == 0 else False
+#return (num % 2 == 0)
+
+#match - keyword - used for pattern matching
+name = input("Enter your hogwarts house:")
+match name:
+    case "Gryffindor":
+        print("Bravery and courage")
+    case "Hufflepuff":
+        print("Loyalty and patience")
+    case "Ravenclaw":
+        print("Intelligence and wit")
+    case "Slytherin":
+        print("Ambition and cunning")
+    case _:
+        print("Not a valid house")
+        
