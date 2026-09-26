@@ -1,7 +1,7 @@
-##Python 101 
+# Python 101 
 (A self-guide for me and others who come across it)
 
-#Data Types
+# Data Types
 
 Data types represent the different kinds of values that variables can store in Python.
 
