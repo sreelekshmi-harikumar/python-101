@@ -46,3 +46,33 @@ suppose our variable is : name
 It can also be used to together
 name = name.strip().upper()
 """
+#to split the name 
+full_name = "Sreelekshmi Harikumar"
+first,last = full_name.split(" ")
+print(first)
+print(last)
+
+#function is created using def keyword which means define
+def hello(name):
+    print(f"hello,{name}")
+
+keke = input("Enter your name:")
+hello(keke)
+
+def Hello(to="world"):
+    print(f"Hello {to}")
+
+Hello()#Hello world
+
+#definig main
+def main():
+    age = int(input("Enter your age:"))
+    print(check_age(age))
+
+def check_age(age):
+    if age>=18:
+        return("You are not a minor")
+    else:
+        return("You are a minor")
+
+main()
