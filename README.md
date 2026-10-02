@@ -1,5 +1,5 @@
 # Python 101 
-(A self-guide for me and others who come across it)
+>(A self-guide for me and others who come across it)
 
 # Data Types
 
